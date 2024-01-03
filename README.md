@@ -4,5 +4,6 @@ Esse projeto tem como objetivo demonstrar padrões de desenvolvimento de softwar
 
 Os tópicos a serem abordados são:
 
-- [Git strategy]()
+- [Git: Strategy](/git/git-strategy.md)
+- [Git: Pattern]()
 - [Kanban]()
