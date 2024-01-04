@@ -1,6 +1,6 @@
 # pull-request-strategy
 
-Esse documento tem como objetivo apresentar uma solucão para a estratégia o versionamento durante o desenvolvimento de software.
+Esse documento tem como objetivo apresentar uma solução para a estratégia o versionamento durante o desenvolvimento de software.
 
 Utilizaremos `git` como sistema de controle de versão e a plataforma `github`para os exemplos. 
 
