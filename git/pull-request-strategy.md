@@ -1,4 +1,4 @@
-# git-strategy
+# pull-request-strategy
 
 Esse documento tem como objetivo apresentar uma solucão para a estratégia o versionamento durante o desenvolvimento de software.
 
