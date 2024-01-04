@@ -69,7 +69,7 @@ Exemplo com descrição e footer
 - Adiciona processos de build e publicação
 - Facilita para que pessoas contribuam com o projeto, possibilitando uma visualização mais estruturada do histórico de commits
 
-##EXTRA: Gitmoji
+## EXTRA: Gitmoji
 
 Uma adicão ao `Conventional Commits` para trazer a opção de descrição **visual** é a utilização em conjunto com [Gitmoji](https://gitmoji.dev)
 
