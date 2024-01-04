@@ -159,14 +159,19 @@ teremos o seguinte grafo, onde cada `branch` é representado por **circunferênc
 
 ```mermaid
 graph TD;
-    main((main))-->main1[ajustes na main];
-    main1[ajustes na main]-->main2[commit 1];
-    main2[commit 1]-->main3[commit 2];
-    main((main))-->rewrite((reescrita));
-    rewrite((reescrita))-->rewrite1[reescrita 1]
-    rewrite1[reescrita 1]--> aaaa;
-    aaaa-->eita
-    rewrite1[reescrita 1]--> rewrite2((reescrita2))
+    main((main))---main1[ajustes na main];
+    main1[ajustes na main]---main2[commit 1];
+    main2[commit 1]---main3[commit 2];
+    main((main))---rewrite((reescrita));
+    rewrite((reescrita))---rewrite1[reescrita 1]
+    rewrite1[reescrita 1]---aaaa;
+    aaaa---eita
+    rewrite1[reescrita 1]---rewrite2((reescrita2))
+    rewrite2((reescrita2))---reescrita2
+
+    classDef A color:#fff,fill:#744673,stroke:#d2bff0
+    class main,rewrite,rewrite2 A
+
 ```
 
 se por um acaso desejarmos enviar a branch de `reescrita 2` direto para a main, serão criadas novas hash, criando o seguinte histórico / grafo:
@@ -186,6 +191,9 @@ graph TD;
     rewrite((reescrita))-->rewrite5[reescrita 1];
     rewrite5[reescrita 1]--> aaaa;
     aaaa-->eita
+
+    classDef A color:#fff,fill:#744673,stroke:#d2bff0
+    class main,rewrite,rewrite2 A
     
 ```
 
