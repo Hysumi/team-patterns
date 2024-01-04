@@ -182,8 +182,9 @@ graph TD;
     main3[commit 2]-->rewrite2((reescrita2))
     rewrite2((reescrita2))-->rewrite3[reescrita 1]
     rewrite3[reescrita 1]-->rewrite4[reescrita 2]
-    main((main))-->rewrite[reescrita 1];
-    rewrite((reescrita))--> aaaa;
+    main((main))-->rewrite((reescrita));
+    rewrite((reescrita))-->rewrite5[reescrita 1];
+    rewrite5[reescrita 1]--> aaaa;
     aaaa-->eita
     
 ```
