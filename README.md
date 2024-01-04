@@ -4,6 +4,6 @@ Esse projeto tem como objetivo demonstrar padrões de desenvolvimento de softwar
 
 Os tópicos a serem abordados são:
 
-- [Git: Pull request Strategy](/git/pull-request-strategy.md)
-- [Git: Pattern]()
-- [Kanban]()
+- [Git: Commit pattern](/git/commit-pattern.md)
+- [Git: Pull request strategy](/git/pull-request-strategy.md)
+- [Git: Gitflow workflow](/git/git-flow.md)
